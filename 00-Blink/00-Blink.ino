@@ -3,23 +3,23 @@
  *  @date    07.Ago.2018  
  *  @version 1.0
  *  
- *  @brief   Parpadeo de un led externo
+ *  @brief   Parpadeo de un pinLed externo
  *
  *  @licence  MIT License
  */
-int led = 3;           // Puerto del led (PWM)
+int pinLed = 3;           // Puerto del pinLed (PWM)
 
 void setup() {
-  // ---- Declara el puerto del led como salida
-  pinMode(led, OUTPUT);
+  // ---- Declara el puerto del pinLed como salida
+  pinMode(pinLed, OUTPUT);
 }  // void setup
 
 void loop() {
-  // Enciende el led por un segundo (1000 milisegundos)
-  digitalWrite(led, HIGH);
+  // Enciende el pinLed por un segundo (1000 milisegundos)
+  digitalWrite(pinLed, HIGH);
   delay(1000);
 
-  // Apaga el led por un segundo (1000 milisegundos)
-  digitalWrite(led, LOW);
+  // Apaga el pinLed por un segundo (1000 milisegundos)
+  digitalWrite(pinLed, LOW);
   delay(1000);
 } // void setup
