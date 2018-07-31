@@ -1,6 +1,6 @@
 /** @file    06-Temperatura.ino
  *  @author  Jorge Villalobos Carvajal (jorgemvc@gmail.com)
- *  @date    07.Ago.2018  
+ *  @date    04.Ago.2018  
  *  @version 1.0 
  *  
  *  @brief   Lectura de un sensor de temperatura
@@ -27,12 +27,12 @@ void loop() {
   // Cada 10mV se incrementa 1 grado celsius
   float temp = (voltage - 0.5) * 100;
   delay(500);
+
+  Serial.println(temp);
   
 //  Serial.print("Voltaje: ");
 //  Serial.print(voltage);
 //  Serial.print(" - Temperatura: ");
 //  Serial.print(temp);
 //  Serial.println(" C");
-
-  Serial.println(temp);
 } // void loop

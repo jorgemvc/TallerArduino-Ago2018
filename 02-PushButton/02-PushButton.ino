@@ -1,6 +1,6 @@
 /** @file    02-PushButton.ino
  *  @author  Jorge Villalobos Carvajal (jorgemvc@gmail.com)
- *  @date    07.Ago.2018  
+ *  @date    04.Ago.2018  
  *  @version 1.0 
  *  
  *  @brief   Uso de un pulsador.
