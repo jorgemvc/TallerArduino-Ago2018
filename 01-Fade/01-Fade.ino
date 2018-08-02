@@ -8,9 +8,11 @@
  *
  *  @licence  MIT License
  */
-int led = 3;           // Puerto PWM del led
-int brillo = 0;        // Brillo del led [0-255]
-int incremento = 5;    // Incremento del brillo
+int
+  led = 3,           // Puerto PWM del led
+  espera = 25,       // Milisegundos de espera
+  brillo = 0,        // Brillo del led [0-255]
+  incremento = 5;    // Incremento del brillo
 
 void setup() {
   // ---- Declara el puerto del led como salida
@@ -31,5 +33,5 @@ void loop() {
   }
 
   // Espera 100 milisegundos
-  delay(100);
+  delay(espera);
 } // void setup
