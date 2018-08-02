@@ -9,13 +9,12 @@
  */
 // ---- Variables
 int
-  pinLed = 3,     // Puerto utilizado para el pinLed
-  pinBoton = 2;   // Puerto utilizado por el pinBoton
+  pinLed   = 3,   // Puerto utilizado para el led
+  pinBoton = 2;   // Puerto utilizado por el boton
 
 void setup() {
   pinMode(pinBoton, INPUT);
   pinMode(pinLed, OUTPUT);
-  Serial.begin(9600);
 }  // setup
 
 void loop() {

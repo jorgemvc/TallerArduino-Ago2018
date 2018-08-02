@@ -8,8 +8,8 @@
  *  @licence  MIT License
  */
 int
-  tempPin = A1,
-  sensorValue;
+  tempPin = A1,  // Puerto utilizado por el sensor
+  sensorValue;   // Lectura del sensor
 
 void setup() {
   Serial.begin(9600);

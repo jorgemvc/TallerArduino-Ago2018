@@ -14,7 +14,7 @@
 const int   trigPin = 9;     // Puerto de envío
 const int   echoPin = 10;    // Puerto de recepción
 const float factor  = 1.0;   // Factor de ajuste
-const int   ledPin  = 3;     // Puerto del led (PWM)
+const int   ledPin  = 11;    // Puerto del led (PWM)
 const int   potPin  = A0;    // Puerto del potenciometro
 
 // ---- Variables

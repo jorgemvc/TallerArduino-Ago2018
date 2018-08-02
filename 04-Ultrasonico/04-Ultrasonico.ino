@@ -10,7 +10,7 @@
 // ---- Constantes
 const int   trigPin = 9;     // Puerto de envío
 const int   echoPin = 10;    // Puerto de recepción
-const float factor = 1.0;    // Factor de ajuste
+const float factor  = 1.0;   // Factor de ajuste
 
 // ---- Variables
 float
